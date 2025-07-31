@@ -10,7 +10,7 @@ O sistema permite:
 
 ---
 
-## Estrutura do Projeto
+## Funcionalidades
 
 O sistema usa uma estrutura `struct Filme` para representar os filmes, contendo:
 
@@ -21,9 +21,9 @@ O sistema usa uma estrutura `struct Filme` para representar os filmes, contendo:
 - `diretor`: Nome do diretor
 - `valor`: Valor de aluguel
 
----
+Valida se cada campo foi preenchido corretamente antes de salvar.
 
-## Funcionalidades
+---
 
 ### 1. Cadastrar Filme
 O usuário insere os dados pelo terminal. O sistema valida cada entrada e só cadastra se todos os campos forem válidos.
